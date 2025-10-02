@@ -35,7 +35,14 @@ public class ServiceController {
 
     @GetMapping("/uid")
     public String uid() {
-        return "s12345678";
+        return "s2484263";
     }
+
+//    Example in online demo:
+//    @PostMapping("callme")
+//    public String callme(@RequestBody String body) {
+//        logger.info("Received callme request with body:{}", body);
+//        return "Received at " + Instant.now() + " with body: "  + body;
+//    }
 
 }
